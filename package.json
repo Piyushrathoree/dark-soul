@@ -15,7 +15,6 @@
     "vite": "^8.3.0"
   },
   "dependencies": {
-    "@genex-ai/embed-sdk": "^0.22.3",
     "three": "^0.186.0"
   }
 }

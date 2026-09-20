@@ -1,9 +1,3 @@
-// Genex hosting (17 Sep 2026): player identity for the hosted game, the very first thing in the boot sequence
-// (the genex-threejs-embed-auth card). Guests play at once; nothing below awaits it, so the renderer and the
-// loading screen come up exactly as before.
-import {initEmbed} from '@genex-ai/embed-sdk';
-import {GENEX} from '../genex.config.ts';
-initEmbed({slug:GENEX.slug,apiUrl:GENEX.apiUrl,dashboardOrigins:GENEX.dashboardOrigins});
 import './style.css';
 import {initializePreferences} from './preferences.js';
 import {updateVitals,liftVeil} from './hud.js';
